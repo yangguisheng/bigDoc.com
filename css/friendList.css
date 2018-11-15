@@ -8,3 +8,12 @@
 .mui-table-view .mui-media-object.mui-pull-left{
 	border-radius: .1rem;
 }
+.mui-table-view .mui-media-object{
+	height:1.4rem;
+	max-width: 1.4rem;
+}
+.red{
+	color:#E4393C;
+	font-size: .32rem;
+	margin: .1rem 0;
+}
