@@ -29,4 +29,13 @@ $(function(){
 			}
 		})
 	})
+	//选中默认地址
+	mui("li").on("tap","input", function () {
+		var id=$(this).parents("li").data("index");
+		if(!$(this).is(":checked")) {
+			if($("input:checked").length>0){
+				$("input:checked").get(0).checked=false
+			}
+		}
+	})
 })	
