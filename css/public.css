@@ -1,0 +1,64 @@
+*{
+	font-size: 0;
+}
+ol,ul,body{
+	margin: 0;
+	padding: 0;	
+}
+ol,li{
+	list-style: none;
+}
+body{
+	overflow-x: hidden;
+}
+html{
+	font-size: calc(100vw/7.5);
+		font-family: PingFang-SC-Medium;
+}
+.mui-content{
+	padding-bottom: 1.2rem;
+}
+.l{
+	float: left;
+}
+.r{
+	float:right;
+}
+.mui-bar{
+	background: #fff;
+	-webkit-box-shadow: 0 0 0px rgba(0,0,0,0);
+    box-shadow: 0 0 0px rgba(0,0,0,0)
+}
+.mui-bar-tab{
+	height:1rem;
+}
+.mui-bar-tab .mui-tab-item .mui-icon{
+	top:.2rem;
+}
+.mui-bar-tab .mui-tab-item.mui-active{
+	color:#096;
+}
+.mui-bar{
+	background: #f7f7f7;
+}
+.mui-bar-nav.mui-bar .mui-icon{
+	color:#333;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc; opacity:1; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #ccc;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #ccc;opacity:1;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{
+	background: transparent !important;
+}

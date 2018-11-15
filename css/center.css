@@ -1,0 +1,235 @@
+/*关部*/
+.mui-content{
+	position: relative;
+	padding-bottom: .1rem;
+}
+header{
+	height:4rem;
+	background: url(../img/bg.png);
+	background-size:cover;
+	width:100%;
+	text-align: center;
+	padding: .4rem 0 0 .4rem;
+}
+header h5{
+	font-size: .36rem;
+	color:#000;
+	margin-bottom: .57rem;
+}
+header .r{
+	padding-top: .3rem;
+}
+header .l>div{
+	display: inline-block;
+	margin-right: .3rem;
+	vertical-align: middle;
+}
+header .HeadImg{
+	width:1.5rem;
+	height:1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	background: rgba(255,255,255,.5);
+	border-radius: 50%;
+	padding-top: .05rem;
+}
+.HeadImg img{
+	height:1.4rem;
+	width:1.4rem;
+	border-radius: 50%;
+}
+header .info{
+	padding-top: .2rem;
+}
+header .info>p{
+	text-align: left;
+	font-size: .24rem;
+	color:#f33;
+	margin-bottom: .1rem;
+}
+header .info .UName{
+	font-size: .36rem;
+	color:#000;
+    width: 3rem;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.r>img{
+	width:1.8rem;
+}
+/*提现*/
+.money{
+	width: 6.7rem;
+    height: 2.7rem;
+    background: #fff;
+    z-index: 2;
+    margin: 0 auto;
+    border-radius: .2rem;
+    padding: .3rem .5rem .3rem;
+    position: absolute;
+    top: 2.2rem;
+    left: .4rem;
+    -webkit-box-shadow: 1px 1px 10px #e1e1e1;
+    box-shadow: 1px 1px 10px #e1e1e1
+	
+}
+.money>div{
+	display: flex;
+}
+.money>div>div{
+	flex:1;
+	font-size: .2rem;
+	color:#666;
+	text-align: center;
+}
+.money>.top>div{
+	border-bottom: 1px solid #e1e1e1;
+}
+.money>.top p{
+	font-size: .24rem;
+}
+.money>.top .font_L{
+	font-size: .48rem ;
+	color:#c00;
+}
+.money>div .font_s{
+	font-size: .3rem;
+	color:#c00;
+}
+.money>div p{
+	margin-bottom: .1rem;
+	font-size:.24rem;
+}
+.activity{
+	padding-top: .3rem;
+}
+/*好友，粉丝*/
+.my{
+	height: 3.8rem;
+    position: relative;
+    padding: 0 .4rem;
+    top: -1rem;
+    background: url(../img/bg1.png);
+    background-size: cover;
+}
+.my>div{
+	position:absolute;
+	bottom: .3rem;
+	display: flex;
+	width:6.7rem;
+	margin: 0 auto;
+}
+.my>div>div{
+	flex: 1;
+	color:#333;
+	text-align: center;
+}
+.my span{
+	font-size: .24rem;
+}
+.my .friends{
+	border-right: 1px solid #e1e1e1;
+	padding-right: .35rem;
+}
+.my .friends img{
+	width:.7rem;
+}
+.my .fans{
+	padding-left: .35rem;
+}
+.my .fans img{
+	width:.8rem;
+}
+.my div .r{
+	font-size: .3rem;
+}
+/*订单*/
+.order{
+	height:2.4rem;
+	background: #fff;
+	padding: .3rem .4rem;  
+	margin: .2rem 0;
+	position:relative;
+	top:-1rem;
+}
+.order .all{
+	height:.6rem;
+	line-height: .6rem;
+	border-bottom: 1px solid #e1e1e1;
+}
+.order .all .l{
+	margin-right: .1rem;
+}
+.order .all .l img{
+	width:.28rem;
+	vertical-align: middle;
+	margin-right: .1rem;
+}
+.order .all span{
+	font-size: .3rem;
+	color:#333;
+	vertical-align: middle;
+}
+.order .all .mui-icon{
+	margin-left: .1rem;
+	color:#333;
+}
+.order .stat{
+	display: flex;
+}
+.order .stat div{
+	flex:1;
+	text-align: center;
+	padding-top: .3rem;
+}
+.order .stat div img{
+	width:.4rem;
+	margin-left: .36rem;
+}
+.order .stat div span{
+	background: red;
+    display: inline-block;
+    font-size: .2rem;
+    width: .3rem;
+    border-radius: 50%;
+    height: .3rem;
+    line-height:1.6;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -.3rem;
+    left: -.1rem;
+    opacity: 0;
+}
+.order .stat div span.active{
+	opacity: 1;
+}
+ul{
+	position:relative;
+	top:-1rem;
+	padding: 0;
+}
+li{
+	list-style: none;
+	margin: .2rem 0;
+	padding: 0 .4rem;
+	height:.88rem;
+	line-height: .88rem;
+	background: #fff;
+	
+}
+li img{
+	width:.6rem;
+	margin-right:.2rem;
+	vertical-align: middle;
+}
+li span{
+	font-size: .36rem;
+	vertical-align: middle;
+}
+li .r{
+	padding-top: .2rem;
+}

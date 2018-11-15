@@ -1,0 +1,145 @@
+.mui_content{
+	padding-top: 44px;
+}
+ul{
+	padding-bottom: .88rem;
+}
+li{
+	background: #fff;
+	border-bottom: 1px solid #e1e1e11;
+	border-top: 1px solid #e1e1e11;
+	margin-bottom: .2rem;
+	padding:.2rem;
+}
+.title{
+	height:.6rem;
+	line-height: .6rem;
+	border-bottom: 1px solid #e1e1e1;
+}
+.title>span{
+	font-size: .24rem;
+}
+.info{
+	height: 2rem;
+	padding: .2rem;
+}
+.info>div{
+	display: inline-block;
+	vertical-align: top;
+}
+.info .mui-left{
+	width:.66rem;
+	height:100%;
+    line-height: 2rem;
+}
+.mui-checkbox.mui-left input[type=checkbox]{
+	left:0;
+	top:26px;
+}
+.img>img{
+	width:1.6rem;
+	height:1.6rem;
+}
+.t{
+	width:4.2rem;
+	margin-left: .2rem;	
+}
+.t>div,.t span{
+	font-size: .24rem;
+}
+.Name{
+	width:100%;
+	font-size: .28rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.num .l>span{
+	color:#e21323;
+	font-size: .2rem;
+}
+.num .l>.price{
+	font-size:.3rem;
+}
+.num .r .minus.disable {
+    background: #f5f5f5;
+}
+.num .r span {
+    display: inline-block;
+    text-align: center;
+    width: .6rem;
+    height: .6rem;
+    line-height: .6rem;
+    border: 1px solid #dadada;
+    background: #fff;
+    font-size: .28rem;
+}
+.minus {
+    border-top-left-radius: .1rem;
+    border-bottom-left-radius: .1rem;
+}
+.num .r img {
+    width: .3rem;
+    vertical-align: middle;
+}
+.num .r .count {
+    background: #fff;
+    border-left: 0;
+    border-right: 0;
+}
+.num .r .add {
+    border-top-right-radius: .1rem;
+    border-bottom-right-radius: .1rem;
+    background: #fff;
+}
+footer{
+	width:100%;
+	background: #fff;
+	height:.88rem;
+	line-height: .88rem;
+	position: fixed;
+	bottom: 0;
+}
+footer>div{
+	display: inline-block;
+}
+.btn{
+	background: #e21323;
+	width:1.8rem;
+	text-align: center;
+	color:#fff;
+	font-size: .3rem;
+}
+.allCheck{
+	width: 1.7rem;
+    background: #ddd;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    line-height: 1rem;
+}
+.allCheck label{
+	font-size: 0.2rem;
+    padding-left: 0.6rem !important;
+}
+.sumPrice{
+	width:4rem;
+	text-align: center;
+	font-size: .3rem;
+}
+.sumPrice>span{
+	font-size: .3rem;
+}
+.sumPrice .symbol{
+	font-size: .2rem;
+	color:#e21323;
+}
+.sumPrice .price{
+	color:#e21323;
+}
+footer .mui-checkbox.mui-left input[type=checkbox]{
+	top:.2rem;
+	left:.2rem;
+}

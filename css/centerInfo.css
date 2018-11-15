@@ -1,0 +1,43 @@
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0;
+}
+
+.mui-table-view:before,.mui-table-view:after,.mui-table-view-cell:after{
+	background-color:transparent
+}
+.mui-table-view-cell{
+	padding: 0 .43rem;
+	height:.8rem;
+	line-height: .8rem;
+	margin: .2rem 0;
+	background: #fff;
+}
+input[type=text],input[type=number]{
+	padding: 0;
+	border:none;
+	outline: none;
+	text-align: right;
+}
+.mui-table-view{
+	background: transparent;
+}
+li>span{
+	font-size: .3rem;
+	color:#333;
+}
+.mui-icon-arrowright{
+	color:#ccc;
+	margin-top: 0.14rem;
+}
+.btn {
+    width: 5.8rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .36rem;
+    color: #fff;
+    background: #096;
+    border-radius: .1rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+

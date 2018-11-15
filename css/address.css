@@ -1,0 +1,61 @@
+
+body{
+	padding-top: 44px;
+}
+.t.r{
+	font-size: .28rem;
+	padding-top: 13px;
+}
+
+li{
+	height:2rem;
+	background: #fff;
+	margin-bottom: .2rem;
+}
+.info{
+	height:1.2rem;
+	border-bottom: 1px solid #f7f7f7;
+	padding: .3rem .4rem;
+}
+.info>div{
+	font-size: .2rem;
+	margin-top: -.08rem;
+}
+.info>div>span{
+	font-size: .24rem;
+	color:#333;
+	margin-right: .35rem;
+}
+.mui-checkbox{
+	height:.8rem;
+	line-height: .8rem;
+}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+	color:#096;
+}
+.mui-left{
+	padding-right: .4rem;
+}
+.mui-left span{
+	font-size: .24rem;
+    margin: 0 .2rem 0 0.1rem;
+    display: inline-block;
+    position: relative;
+    top: -0.05rem;
+}
+.mui-left .l span{
+	margin-left: 1rem;
+	position: relative;
+    top: 1px;
+}
+.mui-left .r .mui-icon{
+	font-size: .4rem;
+	margin-left: .3rem;
+	margin-right: .08rem;
+}
+.mui-checkbox input[type=checkbox]{
+	top:6px;
+}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{
+	font-size: 24px;
+}

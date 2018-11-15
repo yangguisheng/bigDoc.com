@@ -1,0 +1,115 @@
+nav ul{
+	height:.88rem;
+	text-align: center;
+	line-height: .88rem;
+	background: #fff;
+	padding: 0 .15rem;
+	display: flex;
+}
+nav li{
+	width:1.8rem;
+	flex: 1;
+	font-size: .3rem;
+	color:#333;
+	border-bottom:1px solid transparent;
+	list-style: none;
+}
+nav li.active{
+	border-bottom:1px solid #096;
+	color:#096;
+}
+.box li{
+	height:2.88rem;
+	margin-top: .1rem;
+}
+li .info{
+	height:2rem;
+	background: #fff;
+	margin-bottom: 1px;
+	padding:0 .2rem;
+	position:relative;
+}
+.info img{
+	width:1.6rem;
+	height:1.6rem;
+	border-radius: .1rem;
+	margin-right: .2rem;
+}
+h5{
+	font-size: .24rem;
+	color:#333;
+	 width: 3rem;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+p{
+	font-size: .24rem;
+	color:#999;
+	width: 3rem;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+   	line-height: 1.5;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.info>div{
+	display: inline-block;
+	vertical-align: text-top;
+}
+.r{
+	position:relative;
+	top:.2rem;
+}
+.r>*{
+	font-size: .24rem;
+	text-align: right;
+}
+.price{
+	font-size: .16rem;
+}
+.price span{
+	font-size: .24rem;
+	margin-left: .04rem;
+}
+.text{
+	font-size: .2rem;
+	position: absolute;
+	bottom:.2rem;
+	right:.2rem;
+}
+.text span{
+	font-size:.24rem;
+}
+li .btn{
+	height:.88rem;
+	background: #fff;
+	text-align: right;
+	padding-right: .2rem;
+	padding-top: .19rem;
+}
+.btn span{
+	display: inline-block;
+    width: 1.5rem;
+    height: .5rem;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .5rem;
+    color: #333;
+    border: 1px solid #333;
+    margin-left: .16rem;
+    border-radius: .5rem;
+}
+.btn .ok,.btn .assess,.btn .remind{
+	border:1px solid #096;
+	color:#096;
+}
+.btn .assess{
+	width:1rem;
+}

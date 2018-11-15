@@ -1,0 +1,10 @@
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0;
+}
+.mui-media-body{
+	font-size: .32rem;
+	color:#333;
+}
+.mui-table-view .mui-media-object.mui-pull-left{
+	border-radius: .1rem;
+}

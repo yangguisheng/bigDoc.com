@@ -1,0 +1,57 @@
+.info{
+	height:4.2rem;
+	background: #fff;
+	padding: .76rem .3rem 0;
+	margin-bottom: 1rem;
+}
+.top{
+	text-align: center;
+	margin-bottom: .7rem;
+}
+.top>span{
+	font-size: .24rem;
+	color:#666;
+}
+.top>.symbol,.middle .symbol{
+	font-size: .32rem;
+    margin: 0 .1rem;
+}
+.top>.num{
+	font-size: .6rem;
+	color:#c00;
+}
+.middle{
+	border-bottom: 1px solid #f7f7f7;
+}
+.middle>div{
+	position:relative;
+}
+.middle *{
+	font-size:.24rem;
+}
+input[type=number]{
+	border:none;
+	width:3rem;
+	outline: none;
+	margin-bottom: 0;
+}
+.all{
+	color:#096;
+	font-size: .36rem;
+	margin-top: .2rem;
+}
+.text{
+	font-size: .2rem;
+	margin-top: .2rem;
+}
+.btn{
+	width: 5.4rem;
+	margin: 0 auto;
+	height:1rem;
+	text-align: center;
+	line-height: 1rem;
+	background: #096;
+	color:#fff;
+	font-size: .36rem;
+	border-radius: .1rem;
+}

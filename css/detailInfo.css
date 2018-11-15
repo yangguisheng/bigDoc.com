@@ -1,0 +1,29 @@
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0;
+}
+.mui-table-view-cell{
+	padding: .3rem .4rem;
+	height:1.3rem;
+}
+.mui-badge{
+	background: #fff;
+	font-size: .36rem;
+}
+.add{
+	color:#096;
+}
+.type{
+	color:#333;
+	font-size: .36rem;
+	    margin-bottom: .1rem;
+}
+.time{
+	color:#999;
+	font-size: .2rem;
+}
+.mui-table-view:after{
+	background-color: transparent;
+}
+.mui-table-view-cell:after{
+	background-color: #f7f7f7;
+}

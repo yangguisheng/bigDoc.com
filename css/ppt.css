@@ -1,0 +1,43 @@
+.mui_content{
+	padding-top: 44px;
+}
+li{
+	height:1.2rem;
+	background: #fff;
+	background: #fff;
+	padding:.15rem .3rem;
+	margin-bottom: .2rem;
+}
+li>div{
+	display: inline-block;
+	vertical-align: top;
+}
+.img{
+	width:.9rem;
+	height:.9rem;
+	margin-right: .14rem;
+}
+.img>img{
+	width:.9rem;
+	height:.9rem;
+	border-radius: .1rem;
+}
+.Name{
+	font-size: .3rem;
+	color:#333;
+}
+.t{
+	font-size:.24rem;
+	color:#999;
+}
+.btn{
+	width:1.2rem;
+	text-align: center;
+	height:.6rem;
+	line-height: .6rem;
+	background: #096;
+	font-size: .3rem;
+	border-radius: .1rem;
+	color:#fff;
+	margin-top: .2rem;
+}

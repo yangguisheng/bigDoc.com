@@ -1,0 +1,36 @@
+.mui-content{
+	padding:0 .4rem;
+	background: #fff;
+}
+body{
+	background: #fff;
+}
+h5{
+	font-size: .36rem;
+	color:#333;
+}
+.t{
+	font-size: .2rem;
+	color:#666;
+}
+.t>div{
+	font-size: .26rem;
+}
+p{
+	clear: both;
+	font-size: .4rem;
+	text-indent: 2em;
+	margin: .2rem;
+	color:#333;
+	line-height: 1.5;
+}
+.t1{
+	font-size: .4rem;
+}
+img{
+	width:100%;
+}
+.title{
+	font-size:.24rem;
+	color:#333;
+}

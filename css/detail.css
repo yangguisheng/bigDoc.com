@@ -1,0 +1,404 @@
+.content{
+	padding-bottom: 1.2rem;
+}
+.swiper-container{
+	height:auto;
+}
+.swiper-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin: 0;
+}
+.titles{
+	padding: .3rem;
+	height:2.16rem;
+	background: #fff;
+	font-size: .32rem;
+	color: #333333;
+	width: 100%;
+    margin: 0;
+    line-height: 0;
+    text-align: left;
+}
+
+h6{
+	text-align: left;
+	margin: 0;
+	line-height: 1.1;
+	width:5.42rem;
+	display: -webkit-box;
+    font-size: .32rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.share{
+	display: inline-block;
+	float:right;
+}
+.share img{
+	width:.4rem;
+}
+.share b{
+	display: inline-block;
+	width:1px;
+	height:.48rem;
+	margin-right: .4rem;
+	border-left:1px solid #e0e0e0;
+}
+.info{
+	clear: both;
+	margin-top: 1.2rem;
+}
+.info>ul{
+	display: flex;
+	justify-content:space-between;
+}
+.info>ul>li{
+	flex:1;
+	font-size: .24rem;
+	color: #999;
+}
+.info li>span{
+	margin-left: .08rem;
+	font-size: .24rem;
+}
+.info>ul li.price{
+	color:#EC702F;
+}
+.info li.price>span{
+	font-size: .36rem;
+}
+.info li:nth-child(2){
+	text-align: center;
+}
+.info li:nth-child(3){
+	text-align: right;
+}
+/*规格*/
+.spec{
+	width:100%;
+	height:.88rem;
+	line-height: .88rem;
+	margin: .2rem 0;
+	background: #fff;
+	font-size: .24rem;
+	padding: 0 .3rem;
+	color:#999;
+}
+.spec p{
+	font-size: .24rem;
+}
+.spec span{
+	color:#333;
+	margin-left: .1rem;
+	font-size: .24rem;
+}
+.spec b{
+	letter-spacing:.02rem;
+	float:right;
+	font-size: .32rem;
+}
+/*标签页*/
+.buttons-tab .button.active {
+    color: #EC702F;
+    border-color: #EC702F;
+    z-index: 100;
+}
+ .buttons-tab .button{
+ 	color: #333;
+    font-size: .28rem;
+    width: 100%;
+    height: .88rem;
+    line-height: .88rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    text-align: center;
+ }
+ .content-block{
+ 	margin: 0;
+ 	padding: .3rem;
+    background: #fff;
+    font-size: .28rem;
+    padding-top: .1rem;
+ }
+p{
+	margin: 0;
+	padding: 0;
+}
+.buttons-tab {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.buttons-row, .buttons-tab {
+    -webkit-align-self: center;
+    align-self: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.titleName{
+	text-align: center;
+    font-size: .32rem;
+    color: #333;
+    margin-bottom: .1rem;
+}
+
+.tab{
+	display: none;
+}
+.tab.active{
+	display: block;
+}
+#tab2 li a{
+	font-size: .24rem;
+}
+#tab2 .content-block{
+	padding-bottom: 0;
+}
+/*底部*/
+footer{
+	width:100%;
+	height:1rem;
+	line-height: 1rem;
+	background: #fff;
+	text-align: center;
+    z-index: 1;
+	color:#fff;
+	position: fixed;
+	bottom: 0;
+}
+footer ul{
+	font-size: 0;
+}
+footer li{
+	display: inline-block;
+	font-size: .32rem;
+}
+.orderDown{
+	background:#E4393C;
+	width:2.2rem; 
+}
+.addCart{
+	background: #FF9600;
+	width:2.2rem;
+}
+.cart{
+	width:3.1rem;
+	position: relative;
+	font-size: .24rem;
+	color:#999;
+
+}
+.buttons-tab:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #d0d0d0;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.mui-table-view:before,.mui-table-view:after{
+	background: transparent;
+}
+.cart b{
+	    display: inline-block;
+    height: .8rem;
+    border: 1px solid #dadada;
+    width: .8rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -1rem;
+    left: .3rem;
+    line-height: .8rem;
+}
+.cart b img{
+	width: .8rem;
+    margin-top: .04rem;
+}
+.icon{
+	color:#999;
+	font-size: .4rem;
+}
+footer .num{
+	    position: absolute;
+    background: red;
+    width: .4rem;
+    text-align: center;
+    border-radius: 50%;
+    line-height: .4rem;
+    font-size: .24rem;
+    color: #fff;
+    left: .9rem;
+    top: -1rem;
+}
+footer .num.active{
+	display: inline-block;
+}
+footer .text{
+    top: -0.4rem;
+    margin-left: -1.2rem;
+    display: inline-block;
+    position: absolute;
+    font-size: .24rem;
+}
+
+/*prop*/
+.prop{
+	background: rgba(0,0,0,.5);
+	width:100%;
+	height:100vh;
+	position: fixed;
+	z-index: 100;
+	bottom:-100%;
+	left:0;
+	transition: all .3s linear;
+}
+.prop.active{
+	bottom: 0;
+}
+.prop .box{
+	background: #fff;
+	width:100%;
+	height:5.1rem;
+	position:absolute;
+	bottom:0;
+	border-top-left-radius: .2rem;
+	border-top-right-radius: .2rem;
+	padding: .3rem;
+}
+.img img{
+	width:2rem;
+	height:2rem;
+	border-radius: .2rem;
+}
+.img span{
+	font-size: .28rem;
+	color: #999;
+	margin-left: .2rem;
+}
+.img .right{
+	float:right;
+	width:.48rem;
+	height:.48rem;
+}
+.rant{
+	font-size: .28rem;
+	margin: .4rem 0;
+	display: none;
+}
+.rant ul{
+	font-size: 0;
+	display: inline-block;
+}
+.rant ul li{
+	font-size: .28rem;
+	text-align: center;
+	width:1.36rem;
+	height:.6rem;
+	line-height: .6rem;
+	border:1px solid #dadada;
+	border-radius: .1rem;
+	margin-left:.2rem;
+	display: inline-block;
+}
+.rant ul li.active{
+	color:#ec702f;
+	border:1px solid #EC702F;
+}
+.month{
+	display: none;
+}
+.month,.prop .num{
+	height:.6rem;
+	width:100%;
+	line-height: .6rem;
+	font-size: .28rem;
+	color:#333;
+	margin: .2rem 0;
+}
+.month .r{
+	float: right;
+	font-size: .36rem;
+	color:#EC702F;
+}
+.num .r{
+	float:right;
+	font-size: 0;
+}
+.num .r span{
+	display: inline-block;
+	text-align: center;
+	width:.6rem;
+	height:.6rem;
+	border:1px solid #dadada;
+	background: #fff;
+	font-size: .28rem;
+}
+.num .r img{
+	width:.3rem;
+	vertical-align: middle;
+}
+.num .r .count{
+	background: #fff;
+	border-left:0;
+	border-right:0;
+}
+.minus{
+	border-top-left-radius: .1rem;
+	border-bottom-left-radius: .1rem;
+}
+.minus.active{
+	background: #999;
+}
+.num .r .add{
+	border-top-right-radius: .1rem;
+	border-bottom-right-radius: .1rem;
+	background: #fff;
+}
+.btn>button{
+	width:6.9rem;
+	height:.88rem;
+	text-align: center;
+	background: #096;
+	font-size:.32rem;
+	color:#fff;
+	border-radius: .1rem;
+	border:none;
+	outline: none;
+}
+.num .r .minus.disable{
+	background: #f5f5f5;
+}
+.modal-inner{
+	    height: 2rem;
+    width: 100%;
+    margin: 0;
+    line-height: 2rem;
+}
+.modal-button.modal-button-bold{
+	color:#EC702F;
+}
+.prop span{
+	font-size: .28rem;
+}
