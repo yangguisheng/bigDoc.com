@@ -9,8 +9,10 @@ $(function(){
 	mui(".mui-content").on("tap"," .btn",function(){
   	
   		var sum=$(".top .num").html().trim()*1;
-  		var num=document.getElementById("money").value;
-  		if(num){
+  		var num=document.getElementById("money").value*1;
+		console.log(num)
+  		if(num&&num>0){
+
   			if(num>sum){
 	  			mui.toast('余额不足，请重新输入');
 	  			document.getElementById("money").value="";
@@ -36,7 +38,7 @@ $(function(){
 				});
 	  		}
   		}else{
-  			mui.toast('请输入提现金额');
+  			mui.toast('请输入或输入正确的提现金额');
   			$(".middle .number").focus()
   		}
   		
