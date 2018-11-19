@@ -148,3 +148,56 @@ footer div{
 	color:#fff;
 	border-radius: .1rem;
 }
+.num>div{
+	font-size: 0 !important;
+	margin-top: 0 !important;
+}
+.num  span{
+	display: inline-block;
+	text-align: center;
+	width:.6rem;
+	height:.6rem;
+	line-height: .6rem;
+	border:1px solid #dadada;
+	background: #fff;
+	font-size: .28rem;
+}
+.num  img{
+	width:.3rem;
+	vertical-align: middle;
+}
+.num  .count{
+	background: #fff;
+	border-left:0;
+	border-right:0;
+}
+.minus{
+	border-top-left-radius: .1rem;
+	border-bottom-left-radius: .1rem;
+}
+.minus.active{
+	background: #999;
+}
+.num  .add{
+	border-top-right-radius: .1rem;
+	border-bottom-right-radius: .1rem;
+	background: #fff;
+}
+.btn>button{
+	width:6.9rem;
+	height:.88rem;
+	text-align: center;
+	background: #096;
+	font-size:.32rem;
+	color:#fff;
+	border-radius: .1rem;
+	border:none;
+	outline: none;
+}
+.num  .minus.disable{
+	background: #f5f5f5;
+}
+.num div{
+	display: inline-block;
+    vertical-align: middle;
+}

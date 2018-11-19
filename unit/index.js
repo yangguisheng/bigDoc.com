@@ -10,4 +10,10 @@ $(function(){
 			url:"detail.html?id="+id
 		})
 	})
+	mui("footer").on("tap",".vip",function(){
+		var id=5;
+		mui.openWindow({
+			url:"detail.html?id="+id
+		})
+	})
 })

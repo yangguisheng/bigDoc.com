@@ -19,11 +19,6 @@ $(function() {
 	}
 	var Request = new UrlSearch(); //实例化
 	var id = Request.id * 1; //商品id
-	const Count=$(".info .count").html()*1;//库存剩余数
-	mui(".share").on("tap", "img", function() {
-		console.log("发送请求")
-		mui.toast("收藏成功")
-	})
 	mui(".spec").on("tap", "p", function() {
 		$(".prop").addClass("active");
 	})
@@ -44,11 +39,7 @@ $(function() {
 		if(num > 1) {
 			$(".r .minus").removeClass("disable")
 		}
-		if(num < Count || num == Count) {
-			$(".r .count").attr("data-count", num).html(num);
-		} else {
-			mui.toast("没有更多库存");
-		}
+		$(".r .count").attr("data-count", num).html(num);
 	})
 	mui(".r").on("tap", ".minus", function() {
 		if(!$(this).hasClass("disable")) {
@@ -67,16 +58,7 @@ $(function() {
 		$(".nums").attr("data-count", $(".r .count").attr("data-count"))
 		$(".prop").removeClass("active")
 	})
-	//跳转购物车
-	mui("footer").on("tap",".cart",function(){
-		mui.openWindow({
-			url:"shopCart.html"
-		})
-	})
-	//加入购物车
-	mui("footer").on("tap",".addCart",function(){
-		mui.toast("请求发送中")
-	})
+
 	//立即购买
 	mui("footer").on("tap",".orderDown",function(){
 		mui.openWindow({

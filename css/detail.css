@@ -20,13 +20,13 @@
     margin: 0;
     line-height: 0;
     text-align: left;
+    margin-bottom: .2rem;
 }
 
 h6{
 	text-align: left;
 	margin: 0;
 	line-height: 1.1;
-	width:5.42rem;
 	display: -webkit-box;
     font-size: .32rem;
     -webkit-line-clamp: 2;
@@ -189,18 +189,21 @@ footer li{
 }
 .orderDown{
 	background:#E4393C;
-	width:2.2rem; 
+	width:3rem; 
 }
 .addCart{
 	background: #FF9600;
 	width:2.2rem;
 }
 .cart{
-	width:3.1rem;
+	width:4.5rem;
 	position: relative;
 	font-size: .24rem;
 	color:#999;
-
+}
+.cart a{
+	font-size: .32rem;
+	color:#333;
 }
 .buttons-tab:after {
     content: '';

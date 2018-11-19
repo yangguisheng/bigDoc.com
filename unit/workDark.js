@@ -5,4 +5,14 @@ $(function(){
 			url:"ppt.html"
 		})
 	})
+	mui("ul").on("tap",".img",function(){
+		mui.openWindow({
+			url:"poster.html"
+		})
+	})
+	mui("ul").on("tap",".roll",function(){
+		mui.openWindow({
+			url:"roll.html"
+		})
+	})
 })
