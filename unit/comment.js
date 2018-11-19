@@ -19,7 +19,7 @@ $(function(){
         }
     }
     var Request = new UrlSearch(); //实例化
-    var id = Request.id*1;//订单状态
+    var id = Request.id*1;//订单编号
     //星星
     mui(".order-list-Below").on("tap","li",function(){
     	var num = $(this).index()+1;
@@ -45,8 +45,7 @@ $(function(){
         }
     })
      /*字数限制*/
-    $(".sui-textarea").on("input propertychange", function() {
-    
+    $(".sui-textarea").on("input propertychange", function() {   
         var $this = $(this),
             _val = $this.val(),
             count = "";
@@ -56,5 +55,16 @@ $(function(){
         count = $this.val().length;
         $(".num>span").text(count);
    })
+	//图片的显示
+	$(".sui-uploader__input").on("change",function(){
+		console.log(1)
+	})
+	//发表评价
+	 mui(".mui-content").on("tap",".btn",function(){
+	 	var len=$("ul>li.on").length;//几星
+	 	var text=$(".txt-area").val();//评论内容
+	 	var is=$("#s11").is(":checked");
+	 	console.log(is)
+	 })
 })
     
